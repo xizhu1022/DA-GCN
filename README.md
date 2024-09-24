@@ -8,4 +8,5 @@ I am catching important deadlines, but I will definitely check the code and ensu
 
 I appreciate your understanding and patience, and look forward to your continous attention to our work!
 
-Authors of DA-GCN
+
+Xi Zhu (xi.zhu@rutgers.edu)
