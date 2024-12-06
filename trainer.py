@@ -17,7 +17,7 @@ class Trainer(object):
     def __init__(self, model, dataset: DataSet, args):
         self.model = model.to(args.device)
         self.dataset = dataset
-        self.behaviors = args.behaviors
+        self.behaviors = dataset.behaviors
         self.topk = args.topk
         self.metrics = args.metrics
         self.learning_rate = args.lr

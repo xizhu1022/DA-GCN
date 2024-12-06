@@ -30,7 +30,7 @@ if __name__ == '__main__':
     parser.add_argument('--early_stop', type=int, default=30, help='early stop threshold')
 
     parser.add_argument('--batch_size', type=int, default=4096, help='train batch size')
-    parser.add_argument('--test_batch_size', type=int, default=8192, help='test batch size')
+    parser.add_argument('--test_batch_size', type=int, default=512, help='test batch size')
     parser.add_argument('--topk', type=list, default=[10, 20, 50, 80], help='top k')
     parser.add_argument('--metrics', type=list, default=['hit', 'ndcg'], help='metrics')
 
